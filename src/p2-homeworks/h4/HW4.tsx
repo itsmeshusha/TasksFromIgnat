@@ -6,9 +6,10 @@ import SuperCheckbox from "./common/c3-SuperCheckbox/SuperCheckbox";
 
 function HW4() {
     const [text, setText] = useState<string>("");
-    const [error, setError] = useState<string>("")
+    let [error, setError] = useState<string>("")
 
     const showAlert = () => {
+        
         text ? setError("") : setError("error")
         if (error) {
             alert("введите текст...");
@@ -58,12 +59,12 @@ function HW4() {
                 <SuperCheckbox checked={checked} onChangeChecked={setChecked} onChange={testOnChange}/>
             </div>
 
-            <hr/>
+            
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeSuperInputText/>*/}
             {/*<AlternativeSuperButton/>*/}
             {/*<AlternativeSuperCheckbox/>*/}
-            <hr/>
+            
         </div>
     );
 }

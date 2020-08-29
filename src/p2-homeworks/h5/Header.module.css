@@ -1,0 +1,22 @@
+.header a {
+    display: inline-block;
+    background-color: mediumaquamarine;
+    margin: 0 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: snow;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  
+  .header a:hover {
+    background-color: green;
+    box-shadow: -1px 1px 8px 2px rgb(58, 87, 58), 1px 1px 4px 1px rgb(58, 87, 58);
+    
+  }  
+
+.header_active {
+    border: 1px solid yellow;
+    box-shadow: inset 0px 0px 5px 1px yellow, 0 0 5px 1px yellow;
+}
+

@@ -1,11 +1,8 @@
 .App {
-    font-family: sans-serif;
-    padding: 50px;
-}
-
-.hw3 {
     background-color: #fffdb9;
     font-family: sans-serif;
     padding: 50px;
-
+    text-align: center;
 }
+
+
