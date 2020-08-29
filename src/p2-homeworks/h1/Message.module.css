@@ -1,3 +1,47 @@
 .message {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 100px;
+    padding-top: 250px;
+}
 
+.ava {
+    padding: 25px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.name {
+    color: green;
+    padding-bottom: 9px;
+}
+
+.text {
+    height: 80px;
+    position: relative;
+    float: right;
+    display: inline-block;
+    max-width: 350px;
+    padding: 6px 12px;
+    color: #000;
+    background: #e8e8e8;
+    vertical-align: top;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.time {
+    color: cornflowerblue;
+    font-size: 10px;
+    text-align: right;
+    padding-top: 7px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    padding-top: 69px;
+    border-bottom: 20px solid #e8e8e8;
+    border-left: 30px solid transparent;
 }
