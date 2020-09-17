@@ -1,4 +1,4 @@
-import React, {ChangeEvent, InputHTMLAttributes, DetailedHTMLProps} from "react";
+import React, { ChangeEvent, InputHTMLAttributes, DetailedHTMLProps } from "react";
 
 type DefaultRadioPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
 
@@ -27,11 +27,11 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
             <input
                 type={"radio"}
                 name={name}
-                checked= {o === value}
+                checked={o === value}
                 value={o}
-                onChange = {(e) => onChangeCallback(e)}
+                onChange={onChangeCallback}
 
-                // name, checked, value, onChange
+            // name, checked, value, onChange
             />
             {o}
         </label>
