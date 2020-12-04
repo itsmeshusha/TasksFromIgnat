@@ -16,7 +16,7 @@ export type CheckActionType = {
     payload: number
 }
 
-export const homeWorkReducer = (state: InitialStateType[], action: ActionType): any => {
+export const homeWorkReducer = (state: InitialStateType[], action: ActionType): InitialStateType[] => {
     switch (action.type) {
         case "sort": {
             let newState: InitialStateType[] = [];
